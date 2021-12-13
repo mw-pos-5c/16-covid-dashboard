@@ -1,0 +1,20 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <app-line-chart chartLabel="Cases in Salzburg" [dataLabels]="lineChartData.labels" [dataSource]="lineChartData.values"></app-line-chart>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <app-bar-chart chartLabel="Sum of cases" [dataLabels]="pieChartData.labels" [dataSource]="pieChartData.values"></app-bar-chart>
+    </div>
+    <div class="col">
+      <app-pie-chart [dataLabels]="pieChartData.labels" [dataSource]="pieChartData.values"></app-pie-chart>
+    </div>
+  </div>
+</div>
+
+
+
+
