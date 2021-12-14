@@ -24,7 +24,6 @@ export class BarChartComponent implements OnInit {
     this.chart?.update();
   }
 
-
   @ViewChild(BaseChartDirective) chart?: BaseChartDirective;
 
   constructor() { }
